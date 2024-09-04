@@ -1,0 +1,18 @@
+#! /bin/bash
+
+set -e
+
+if [ ! -f /bin/rbash ]; then
+cd /bin ; ln -s bash rbash
+fi
+
+if [ ! -f /usr/bin/rbash ]; then
+cd /usr/bin ; ln -s bash rbash
+fi 
+
+add-shell /bin/bash
+add-shell /bin/rbash
+add-shell /usr/bin/bash
+add-shell /usr/bin/rbash
+
+exit 0
