@@ -20,7 +20,15 @@ For example:  OpenSSH is developed for NetBSD.
 
 The "control" file here is generic as all get out
 
-# 
+# Purpose
+
+This is being used to learn more about creating a deb file for a larger scale project.  Plus sometimes its awkward to find a deb file for new versions of projects.  Also the source for a project most likely won't contain code to create an archive.
+
+# Getting this
+
+git clone https://github.com/tlh45342/create-bash-deb.git
+
+
 
 This script is designed to create a DEB file based on a fresh
 compile / install of the bash.
