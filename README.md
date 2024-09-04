@@ -24,15 +24,14 @@ The "control" file here is generic as all get out
 
 This is being used to learn more about creating a deb file for a larger scale project.  Plus sometimes its awkward to find a deb file for new versions of projects.  Also the source for a project most likely won't contain code to create an archive.
 
-# Getting this
+This script is designed to create a DEB file based on a fresh
+compile / install of the bash.
+
+## Getting this
 
 ```bash
 git clone https://github.com/tlh45342/create-bash-deb.git
 ```
-
-
-This script is designed to create a DEB file based on a fresh
-compile / install of the bash.
 
 Please note that the default I used had the bash file in /usr/local/bin/bash
 The default instance generated uses /usr/bin/bash
