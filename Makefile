@@ -4,7 +4,7 @@ all: clean
 	mkdir -p $(VERSION)/DEBIAN
 	cp control $(VERSION)/DEBIAN
 	cp postinst $(VERSION)/DEBIAN
-	chmod 0755 $(VERSION)/DEBIAN
+	chmod 0755 $(VERSION)/DEBIAN/postinst
 	mkdir -p $(VERSION)/bin
 	mkdir -p $(VERSION)/usr/bin
 	cp /usr/local/bin/bash $(VERSION)/usr/bin
