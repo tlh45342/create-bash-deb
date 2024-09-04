@@ -1,0 +1,5 @@
+Package: bash
+Version: 5.2.32
+Maintainer: Demo 
+Architecture: all
+Description: bash 5.2.32(1)
